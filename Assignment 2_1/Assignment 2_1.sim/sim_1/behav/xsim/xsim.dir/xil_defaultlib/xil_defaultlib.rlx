@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/oscao/Assignment 2_1/Assignment 2_1.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sim_1/new/tb_decoder.v,1656796288,verilog,,,,tb_decoder,,,,,,,,
+C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sim_1/new/tb_gate.v,1656800873,verilog,,,,tb_gate,,,,,,,,
+C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sources_1/new/Decoder_Behavioral.v,1656796639,verilog,,C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sim_1/new/tb_decoder.v,,Decoder_Behavioral,,,,,,,,
+C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sources_1/new/Decoder_Gate.v,1656801109,verilog,,C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sim_1/new/tb_gate.v,,Decoder_Gate,,,,,,,,

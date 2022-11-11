@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+At TIME(in ns) =                    0, input = 0000, output = 00000000000001
+At TIME(in ns) =                10000, input = 0001, output = 00000000000010
+At TIME(in ns) =                20000, input = 0010, output = 00000000000100
+At TIME(in ns) =                30000, input = 0011, output = 00000000001000
+At TIME(in ns) =                40000, input = 0100, output = 00000000010000
+At TIME(in ns) =                50000, input = 0101, output = 00000000100000
+At TIME(in ns) =                60000, input = 0110, output = 00000001000000
+At TIME(in ns) =                70000, input = 0111, output = 00000010000000
+At TIME(in ns) =                80000, input = 1000, output = 00000100000000
+At TIME(in ns) =                90000, input = 1001, output = 00000000000000
+At TIME(in ns) =               100000, input = 1010, output = 00001000000000
+At TIME(in ns) =               110000, input = 1011, output = 00010000000000
+At TIME(in ns) =               120000, input = 1100, output = 00100000000000
+At TIME(in ns) =               130000, input = 1101, output = 01000000000000
+At TIME(in ns) =               140000, input = 1110, output = 00000000000000
+At TIME(in ns) =               150000, input = 1111, output = 10000000000000
+$finish called at time : 160 ns : File "C:/Users/oscao/Assignment 2_1/Assignment 2_1.srcs/sim_1/new/tb_gate.v" Line 47
