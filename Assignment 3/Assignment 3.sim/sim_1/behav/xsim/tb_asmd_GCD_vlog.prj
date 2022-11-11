@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Assignment 3.srcs/sources_1/new/asmd_GCD.v" \
+"../../../../Assignment 3.srcs/sources_1/new/controlUnit_GCD.v" \
+"../../../../Assignment 3.srcs/sources_1/new/dataFlow_GCD.v" \
+"../../../../Assignment 3.srcs/sim_1/new/tb_asmd_GCD.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/oscao/Assignment 3/Assignment 3.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/oscao/Assignment 3/Assignment 3.srcs/sim_1/new/tb_asmd_GCD.v,1658696770,verilog,,,,tb_asmd_GCD,,,,,,,,
+C:/Users/oscao/Assignment 3/Assignment 3.srcs/sources_1/new/asmd_GCD.v,1658694345,verilog,,C:/Users/oscao/Assignment 3/Assignment 3.srcs/sources_1/new/controlUnit_GCD.v,,asmd_GCD,,,,,,,,
+C:/Users/oscao/Assignment 3/Assignment 3.srcs/sources_1/new/controlUnit_GCD.v,1658694842,verilog,,C:/Users/oscao/Assignment 3/Assignment 3.srcs/sources_1/new/dataFlow_GCD.v,,controlUnit_GCD,,,,,,,,
+C:/Users/oscao/Assignment 3/Assignment 3.srcs/sources_1/new/dataFlow_GCD.v,1658695641,verilog,,C:/Users/oscao/Assignment 3/Assignment 3.srcs/sim_1/new/tb_asmd_GCD.v,,dataFlow_GCD,,,,,,,,
