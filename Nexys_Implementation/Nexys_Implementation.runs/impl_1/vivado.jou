@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Jul 23 16:07:33 2022
+# Process ID: 23592
+# Current directory: C:/Users/oscao/Nexys_Implementation/Nexys_Implementation.runs/impl_1
+# Command line: vivado.exe -log test_sw_led.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source test_sw_led.tcl -notrace
+# Log file: C:/Users/oscao/Nexys_Implementation/Nexys_Implementation.runs/impl_1/test_sw_led.vdi
+# Journal file: C:/Users/oscao/Nexys_Implementation/Nexys_Implementation.runs/impl_1\vivado.jou
+# Running On: DESKTOP-VMICD08, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16929 MB
+#-----------------------------------------------------------
+source test_sw_led.tcl -notrace
