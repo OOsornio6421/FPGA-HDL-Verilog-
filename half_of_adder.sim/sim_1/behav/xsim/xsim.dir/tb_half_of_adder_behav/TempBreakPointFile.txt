@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+33,true,"C:/Users/oscao/half_of_adder/half_of_adder.srcs/sim_1/new/tb_half_of_adder.v"
