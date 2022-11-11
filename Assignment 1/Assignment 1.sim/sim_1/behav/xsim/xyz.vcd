@@ -1,0 +1,151 @@
+$date
+   Sun Jun 19 22:11:58 2022
+$end
+$version
+  2022.1
+$end
+$timescale
+  1ps
+$end
+$scope module tb_magic $end
+$var reg 1 ! A_input $end
+$var reg 1 " B_input $end
+$var reg 1 # C_input $end
+$var reg 1 $ D_input $end
+$var wire 1 % f_output $end
+$scope module instantiation $end
+$var wire 1 & A $end
+$var wire 1 ' B $end
+$var wire 1 ( C $end
+$var wire 1 ) D $end
+$var reg 1 * f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+0&
+0'
+0(
+0)
+1*
+$end
+#10000
+1$
+1)
+1*
+#20000
+1#
+0$
+1(
+0)
+1*
+#30000
+1$
+1)
+1*
+#40000
+1"
+0#
+0$
+0%
+1'
+0(
+0)
+0*
+#50000
+1$
+1%
+1)
+1*
+#60000
+1#
+0$
+0%
+1(
+0)
+0*
+#70000
+1$
+1%
+1)
+1*
+#80000
+1!
+0"
+0#
+0$
+1&
+0'
+0(
+0)
+1*
+#90000
+1$
+1)
+1*
+#100000
+1#
+0$
+0%
+1(
+0)
+0*
+#110000
+1$
+1%
+1)
+1*
+#120000
+1"
+0#
+0$
+0%
+1'
+0(
+0)
+0*
+#130000
+1$
+1)
+0*
+#140000
+1#
+0$
+1(
+0)
+0*
+#150000
+1$
+1%
+1)
+1*
+#160000
+0!
+0"
+0#
+0$
+0&
+0'
+0(
+0)
+1*
+#170000
+1$
+1)
+1*
+#180000
+1#
+0$
+1(
+0)
+1*
+#190000
+1$
+1)
+1*
