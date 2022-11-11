@@ -1,0 +1,16 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/oscao/Final_Project/Final_Project.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sim_1/new/memory_tb.v,1660094703,verilog,,,,memory_tb,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sim_1/new/processor_tb.v,1660009555,verilog,,,,processor_tb,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/ALU.v,1660100304,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/IR_unit.v,,ALU,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/IR_unit.v,1660070884,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/PC_unit.v,,IR_unit,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/PC_unit.v,1660073571,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/RISC_MIPS_processor.v,,PC_unit,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/RISC_MIPS_processor.v,1660073610,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v,,RISC_MIPS_processor,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v,1660098359,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/data_mux.v,,controller,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/data_mux.v,1660070249,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v,,data_mux,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v,1660070152,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v,,memory_mux,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v,1660095017,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v,,memory_unit,,,,,,,,
+C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v,1660073434,verilog,,C:/Users/oscao/Final_Project/Final_Project.srcs/sim_1/new/processor_tb.v,,regfile,,,,,,,,
