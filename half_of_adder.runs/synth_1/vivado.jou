@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jun 14 13:19:58 2022
+# Process ID: 20988
+# Current directory: C:/Users/oscao/half_of_adder/half_of_adder.runs/synth_1
+# Command line: vivado.exe -log half_of_adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source half_of_adder.tcl
+# Log file: C:/Users/oscao/half_of_adder/half_of_adder.runs/synth_1/half_of_adder.vds
+# Journal file: C:/Users/oscao/half_of_adder/half_of_adder.runs/synth_1\vivado.jou
+# Running On: DESKTOP-VMICD08, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16929 MB
+#-----------------------------------------------------------
+source half_of_adder.tcl -notrace
