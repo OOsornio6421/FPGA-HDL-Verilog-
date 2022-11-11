@@ -1,0 +1,770 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Aug 10 13:27:55 2022
+# Process ID: 21476
+# Current directory: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1
+# Command line: vivado.exe -log RISC_MIPS_processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RISC_MIPS_processor.tcl -notrace
+# Log file: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1/RISC_MIPS_processor.vdi
+# Journal file: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1\vivado.jou
+# Running On: DESKTOP-VMICD08, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16929 MB
+#-----------------------------------------------------------
+source RISC_MIPS_processor.tcl -notrace
+Command: link_design -top RISC_MIPS_processor -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1637.488 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'RISC_MIPS_processor' is not ideal for floorplanning, since the cellview 'memory_unit' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2022.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_blue_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_green_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_red_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_blue_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_green_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_red_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnc_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnu_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnl_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnr_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnd_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hs_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vs_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'miso'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mosi'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ss'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_scl'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_sda'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_clk_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_data_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_lrsel_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm_audio_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm_sdaudio_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_clk'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_data'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1637.488 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 72 Warnings, 71 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1637.488 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors, 156 Warnings
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.921 . Memory (MB): peak = 1637.488 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 19b230e35
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1869.250 ; gain = 231.762
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1a3502635
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.213 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 1 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 208a04560
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 6519 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 194da059f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 194da059f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 194da059f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 194da059f
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               1  |                                              0  |
+|  Constant propagation         |               0  |            6519  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2182.340 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1432af309
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2182.340 ; gain = 0.035
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1432af309
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2182.340 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1432af309
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2182.340 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2182.340 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1432af309
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2182.340 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+24 Infos, 72 Warnings, 71 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2182.340 ; gain = 544.852
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 2182.340 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/oscao/Final_Project/Final_Project.runs/impl_1/RISC_MIPS_processor_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file RISC_MIPS_processor_drc_opted.rpt -pb RISC_MIPS_processor_drc_opted.pb -rpx RISC_MIPS_processor_drc_opted.rpx
+Command: report_drc -file RISC_MIPS_processor_drc_opted.rpt -pb RISC_MIPS_processor_drc_opted.pb -rpx RISC_MIPS_processor_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/Users/oscao/Final_Project/Final_Project.runs/impl_1/RISC_MIPS_processor_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 156 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2202.406 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: f5a1f78c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2202.406 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2202.406 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (156) is greater than number of available sites (60).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  BiDi RangeId: 1 Drv: 12  has only 60 sites available on device, but needs 156 sites.
+	Term: ALU_data[0]
+	Term: ALU_data[1]
+	Term: ALU_data[2]
+	Term: ALU_data[3]
+	Term: ALU_data[4]
+	Term: ALU_data[5]
+	Term: ALU_data[6]
+	Term: ALU_data[7]
+	Term: ALU_data[8]
+	Term: ALU_data[9]
+	Term: ALU_data[10]
+	Term: ALU_data[11]
+	Term: ALU_data[12]
+	Term: ALU_data[13]
+	Term: ALU_data[14]
+	Term: ALU_data[15]
+	Term: IR_data[0]
+	Term: IR_data[1]
+	Term: IR_data[2]
+	Term: IR_data[3]
+	Term: IR_data[4]
+	Term: IR_data[5]
+	Term: IR_data[6]
+	Term: IR_data[7]
+	Term: IR_data[8]
+	Term: IR_data[9]
+	Term: IR_data[10]
+	Term: IR_data[11]
+	Term: IR_data[12]
+	Term: IR_data[13]
+	Term: IR_data[14]
+	Term: IR_data[15]
+	Term: MUX_data[0]
+	Term: MUX_data[1]
+	Term: MUX_data[2]
+	Term: MUX_data[3]
+	Term: MUX_data[4]
+	Term: MUX_data[5]
+	Term: MUX_data[6]
+	Term: MUX_data[7]
+	Term: MUX_data[8]
+	Term: MUX_data[9]
+	Term: MUX_data[10]
+	Term: MUX_data[11]
+	Term: MUX_data[12]
+	Term: MUX_data[13]
+	Term: MUX_data[14]
+	Term: MUX_data[15]
+	Term: R_data[0]
+	Term: R_data[1]
+	Term: R_data[2]
+	Term: R_data[3]
+	Term: R_data[4]
+	Term: R_data[5]
+	Term: R_data[6]
+	Term: R_data[7]
+	Term: R_data[8]
+	Term: R_data[9]
+	Term: R_data[10]
+	Term: R_data[11]
+	Term: R_data[12]
+	Term: R_data[13]
+	Term: R_data[14]
+	Term: R_data[15]
+	Term: Rp_data[0]
+	Term: Rp_data[1]
+	Term: Rp_data[2]
+	Term: Rp_data[3]
+	Term: Rp_data[4]
+	Term: Rp_data[5]
+	Term: Rp_data[6]
+	Term: Rp_data[7]
+	Term: Rp_data[8]
+	Term: Rp_data[9]
+	Term: Rp_data[10]
+	Term: Rp_data[11]
+	Term: Rp_data[12]
+	Term: Rp_data[13]
+	Term: Rp_data[14]
+	Term: Rp_data[15]
+	Term: Rq_data[0]
+	Term: Rq_data[1]
+	Term: Rq_data[2]
+	Term: Rq_data[3]
+	Term: Rq_data[4]
+	Term: Rq_data[5]
+	Term: Rq_data[6]
+	Term: Rq_data[7]
+	Term: Rq_data[8]
+	Term: Rq_data[9]
+	Term: Rq_data[10]
+	Term: Rq_data[11]
+	Term: Rq_data[12]
+	Term: Rq_data[13]
+	Term: Rq_data[14]
+	Term: Rq_data[15]
+	Term: D_addr[0]
+	Term: D_addr[1]
+	Term: D_addr[2]
+	Term: D_addr[3]
+	Term: D_addr[4]
+	Term: D_addr[5]
+	Term: D_addr[6]
+	Term: D_addr[7]
+	Term: PC_addr[0]
+	Term: PC_addr[1]
+	Term: PC_addr[2]
+	Term: PC_addr[3]
+	Term: PC_addr[4]
+	Term: PC_addr[5]
+	Term: PC_addr[6]
+	Term: PC_addr[7]
+	Term: RF_W_data[0]
+	Term: RF_W_data[1]
+	Term: RF_W_data[2]
+	Term: RF_W_data[3]
+	Term: RF_W_data[4]
+	Term: RF_W_data[5]
+	Term: RF_W_data[6]
+	Term: RF_W_data[7]
+	Term: addr[0]
+	Term: addr[1]
+	Term: addr[2]
+	Term: addr[3]
+	Term: addr[4]
+	Term: addr[5]
+	Term: addr[6]
+	Term: addr[7]
+	Term: RF_Rp_addr[0]
+	Term: RF_Rp_addr[1]
+	Term: RF_Rp_addr[2]
+	Term: RF_Rp_addr[3]
+	Term: RF_Rq_addr[0]
+	Term: RF_Rq_addr[1]
+	Term: RF_Rq_addr[2]
+	Term: RF_Rq_addr[3]
+	Term: RF_W_addr[0]
+	Term: RF_W_addr[1]
+	Term: RF_W_addr[2]
+	Term: RF_W_addr[3]
+	Term: ALU_s[0]
+	Term: ALU_s[1]
+	Term: ALU_s[2]
+	Term: RF_s[0]
+	Term: RF_s[1]
+	Term: D_addr_sel
+	Term: D_rd
+	Term: D_wr
+	Term: IR_ld
+	Term: PC_clr
+	Term: PC_inc
+	Term: PC_ld
+	Term: RF_Rp_zero
+	Term: Rp_rd
+	Term: Rq_rd
+	Term: W_wr
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (156) is greater than number of available sites (60).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  BiDi RangeId: 1 Drv: 12  has only 60 sites available on device, but needs 156 sites.
+	Term: ALU_data[0]
+	Term: ALU_data[1]
+	Term: ALU_data[2]
+	Term: ALU_data[3]
+	Term: ALU_data[4]
+	Term: ALU_data[5]
+	Term: ALU_data[6]
+	Term: ALU_data[7]
+	Term: ALU_data[8]
+	Term: ALU_data[9]
+	Term: ALU_data[10]
+	Term: ALU_data[11]
+	Term: ALU_data[12]
+	Term: ALU_data[13]
+	Term: ALU_data[14]
+	Term: ALU_data[15]
+	Term: IR_data[0]
+	Term: IR_data[1]
+	Term: IR_data[2]
+	Term: IR_data[3]
+	Term: IR_data[4]
+	Term: IR_data[5]
+	Term: IR_data[6]
+	Term: IR_data[7]
+	Term: IR_data[8]
+	Term: IR_data[9]
+	Term: IR_data[10]
+	Term: IR_data[11]
+	Term: IR_data[12]
+	Term: IR_data[13]
+	Term: IR_data[14]
+	Term: IR_data[15]
+	Term: MUX_data[0]
+	Term: MUX_data[1]
+	Term: MUX_data[2]
+	Term: MUX_data[3]
+	Term: MUX_data[4]
+	Term: MUX_data[5]
+	Term: MUX_data[6]
+	Term: MUX_data[7]
+	Term: MUX_data[8]
+	Term: MUX_data[9]
+	Term: MUX_data[10]
+	Term: MUX_data[11]
+	Term: MUX_data[12]
+	Term: MUX_data[13]
+	Term: MUX_data[14]
+	Term: MUX_data[15]
+	Term: R_data[0]
+	Term: R_data[1]
+	Term: R_data[2]
+	Term: R_data[3]
+	Term: R_data[4]
+	Term: R_data[5]
+	Term: R_data[6]
+	Term: R_data[7]
+	Term: R_data[8]
+	Term: R_data[9]
+	Term: R_data[10]
+	Term: R_data[11]
+	Term: R_data[12]
+	Term: R_data[13]
+	Term: R_data[14]
+	Term: R_data[15]
+	Term: Rp_data[0]
+	Term: Rp_data[1]
+	Term: Rp_data[2]
+	Term: Rp_data[3]
+	Term: Rp_data[4]
+	Term: Rp_data[5]
+	Term: Rp_data[6]
+	Term: Rp_data[7]
+	Term: Rp_data[8]
+	Term: Rp_data[9]
+	Term: Rp_data[10]
+	Term: Rp_data[11]
+	Term: Rp_data[12]
+	Term: Rp_data[13]
+	Term: Rp_data[14]
+	Term: Rp_data[15]
+	Term: Rq_data[0]
+	Term: Rq_data[1]
+	Term: Rq_data[2]
+	Term: Rq_data[3]
+	Term: Rq_data[4]
+	Term: Rq_data[5]
+	Term: Rq_data[6]
+	Term: Rq_data[7]
+	Term: Rq_data[8]
+	Term: Rq_data[9]
+	Term: Rq_data[10]
+	Term: Rq_data[11]
+	Term: Rq_data[12]
+	Term: Rq_data[13]
+	Term: Rq_data[14]
+	Term: Rq_data[15]
+	Term: D_addr[0]
+	Term: D_addr[1]
+	Term: D_addr[2]
+	Term: D_addr[3]
+	Term: D_addr[4]
+	Term: D_addr[5]
+	Term: D_addr[6]
+	Term: D_addr[7]
+	Term: PC_addr[0]
+	Term: PC_addr[1]
+	Term: PC_addr[2]
+	Term: PC_addr[3]
+	Term: PC_addr[4]
+	Term: PC_addr[5]
+	Term: PC_addr[6]
+	Term: PC_addr[7]
+	Term: RF_W_data[0]
+	Term: RF_W_data[1]
+	Term: RF_W_data[2]
+	Term: RF_W_data[3]
+	Term: RF_W_data[4]
+	Term: RF_W_data[5]
+	Term: RF_W_data[6]
+	Term: RF_W_data[7]
+	Term: addr[0]
+	Term: addr[1]
+	Term: addr[2]
+	Term: addr[3]
+	Term: addr[4]
+	Term: addr[5]
+	Term: addr[6]
+	Term: addr[7]
+	Term: RF_Rp_addr[0]
+	Term: RF_Rp_addr[1]
+	Term: RF_Rp_addr[2]
+	Term: RF_Rp_addr[3]
+	Term: RF_Rq_addr[0]
+	Term: RF_Rq_addr[1]
+	Term: RF_Rq_addr[2]
+	Term: RF_Rq_addr[3]
+	Term: RF_W_addr[0]
+	Term: RF_W_addr[1]
+	Term: RF_W_addr[2]
+	Term: RF_W_addr[3]
+	Term: ALU_s[0]
+	Term: ALU_s[1]
+	Term: ALU_s[2]
+	Term: RF_s[0]
+	Term: RF_s[1]
+	Term: D_addr_sel
+	Term: D_rd
+	Term: D_wr
+	Term: IR_ld
+	Term: PC_clr
+	Term: PC_inc
+	Term: PC_ld
+	Term: RF_Rp_zero
+	Term: Rp_rd
+	Term: Rq_rd
+	Term: W_wr
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 14 |    50 |     9 | LVCMOS33(9)                                                            |                                          |        |  +3.30 |    YES |     |
+| 15 |    50 |     6 | LVCMOS33(6)                                                            |                                          |        |  +3.30 |    YES |     |
+| 16 |    10 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     1 | LVCMOS33(1)                                                            |                                          |        |  +3.30 |    YES |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   210 |    16 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 14     | disp_an_o[2]         | LVCMOS33        | IOB_X0Y52            | T9                   |                      |
+|        | disp_an_o[4]         | LVCMOS33        | IOB_X0Y83            | P14                  |                      |
+|        | disp_an_o[5]         | LVCMOS33        | IOB_X0Y72            | T14                  |                      |
+|        | disp_an_o[7]         | LVCMOS33        | IOB_X0Y53            | U13                  |                      |
+|        | disp_seg_o[0]        | LVCMOS33        | IOB_X0Y51            | T10                  |                      |
+|        | disp_seg_o[1]        | LVCMOS33        | IOB_X0Y50            | R10                  |                      |
+|        | disp_seg_o[4]        | LVCMOS33        | IOB_X0Y74            | P15                  |                      |
+|        | disp_seg_o[5]        | LVCMOS33        | IOB_X0Y62            | T11                  |                      |
+|        | disp_seg_o[6]        | LVCMOS33        | IOB_X0Y92            | L18                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 15     | disp_an_o[0]         | LVCMOS33        | IOB_X0Y104           | J17                  |                      |
+|        | disp_an_o[1]         | LVCMOS33        | IOB_X0Y103           | J18                  |                      |
+|        | disp_an_o[3]         | LVCMOS33        | IOB_X0Y112           | J14                  |                      |
+|        | disp_seg_o[2]        | LVCMOS33        | IOB_X0Y100           | K16                  |                      |
+|        | disp_seg_o[3]        | LVCMOS33        | IOB_X0Y116           | K13                  |                      |
+|        | disp_seg_o[7]        | LVCMOS33        | IOB_X0Y111           | H15                  | *                    |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 35     | disp_an_o[6]         | LVCMOS33        | IOB_X1Y104           | K2                   |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: f5a1f78c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.598 . Memory (MB): peak = 2202.406 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: f5a1f78c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.599 . Memory (MB): peak = 2202.406 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: f5a1f78c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.603 . Memory (MB): peak = 2202.406 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 72 Warnings, 71 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 10 13:28:25 2022...

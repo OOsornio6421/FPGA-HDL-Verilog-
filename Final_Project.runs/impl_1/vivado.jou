@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Aug 10 13:27:55 2022
+# Process ID: 21476
+# Current directory: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1
+# Command line: vivado.exe -log RISC_MIPS_processor.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source RISC_MIPS_processor.tcl -notrace
+# Log file: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1/RISC_MIPS_processor.vdi
+# Journal file: C:/Users/oscao/Final_Project/Final_Project.runs/impl_1\vivado.jou
+# Running On: DESKTOP-VMICD08, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 16929 MB
+#-----------------------------------------------------------
+source RISC_MIPS_processor.tcl -notrace

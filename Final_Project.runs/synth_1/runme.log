@@ -1,0 +1,741 @@
+
+*** Running vivado
+    with args -log RISC_MIPS_processor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RISC_MIPS_processor.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source RISC_MIPS_processor.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/oscao/Final_Project/Final_Project.srcs/utils_1/imports/synth_1/RISC_MIPS_processor.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/oscao/Final_Project/Final_Project.srcs/utils_1/imports/synth_1/RISC_MIPS_processor.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top RISC_MIPS_processor -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5988
+WARNING: [Synth 8-9971] redeclaration of ansi port 'ALU_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/ALU.v:29]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'IR_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/IR_unit.v:29]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'PC_addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/PC_unit.v:29]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'PC_ld' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'PC_clr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'PC_inc' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'D_addr_sel' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'IR_ld' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'D_rd' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'D_wr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'W_wr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'Rp_rd' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'Rq_rd' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'D_addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:34]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_W_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:34]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_s' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:35]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_W_addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:36]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_Rp_addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:36]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_Rq_addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:36]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'alu_s' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:37]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'mux_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/data_mux.v:30]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'addr' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v:29]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'R_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:31]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'RF_Rp_zero' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:31]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'Rp_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:33]
+WARNING: [Synth 8-9971] redeclaration of ansi port 'Rq_data' is not allowed [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:33]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1637.027 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'RISC_MIPS_processor' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/RISC_MIPS_processor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:128]
+WARNING: [Synth 8-567] referenced signal 'IR_data' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:23]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:23]
+WARNING: [Synth 8-567] referenced signal 'RF' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:35]
+WARNING: [Synth 8-567] referenced signal 'RF' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:23]
+INFO: [Synth 8-6157] synthesizing module 'memory_unit' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:23]
+WARNING: [Synth 8-567] referenced signal 'D' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:54]
+INFO: [Synth 8-6155] done synthesizing module 'memory_unit' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC_unit' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/PC_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PC_unit' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/PC_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IR_unit' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/IR_unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IR_unit' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/IR_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'memory_mux' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'memory_mux' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_mux' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/data_mux.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_mux' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/data_mux.v:23]
+INFO: [Synth 8-6157] synthesizing module 'swnumber' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:23]
+WARNING: [Synth 8-567] referenced signal 'seg0' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:130]
+WARNING: [Synth 8-567] referenced signal 'seg1' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:130]
+WARNING: [Synth 8-567] referenced signal 'seg2' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:130]
+WARNING: [Synth 8-567] referenced signal 'seg3' should be on the sensitivity list [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:130]
+INFO: [Synth 8-6155] done synthesizing module 'swnumber' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/swnumber.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RISC_MIPS_processor' (0#1) [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/RISC_MIPS_processor.v:23]
+WARNING: [Synth 8-7129] Port PC_ld in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port PC_clr in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[15] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[14] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[13] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[12] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[11] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[10] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[9] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[8] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[7] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[6] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[5] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[4] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[3] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[2] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[1] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port IR[0] in module PC_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RF_Rp_zero in module controller is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1650.918 ; gain = 13.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1650.918 ; gain = 13.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1650.918 ; gain = 13.891
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1650.918 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[12]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[13]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[14]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[15]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[4]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[5]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[6]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[7]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[8]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[9]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[10]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[11]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[12]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[13]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[14]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[15]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_blue_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_green_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb1_red_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_blue_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_green_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgb2_red_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rstn_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnc_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnu_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnl_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnr_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btnd_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:155]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:155]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:156]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:156]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:157]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:157]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_red_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:158]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:158]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:160]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:160]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:161]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:161]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:162]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:162]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_green_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:163]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:163]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[0]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:165]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:165]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[1]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:166]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:166]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[2]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:167]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:167]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_blue_o[3]'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:168]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:168]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_hs_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'vga_vs_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:171]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:171]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'miso'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:188]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:188]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'mosi'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sclk'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ss'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_scl'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'tmp_sda'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_clk_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_data_i'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pdm_lrsel_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm_audio_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm_sdaudio_o'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_clk'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:225]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:225]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ps2_data'. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/oscao/Downloads/Nexys4DDR_4 Demo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RISC_MIPS_processor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/RISC_MIPS_processor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1702.453 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1702.453 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'PC_ld_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:192]
+WARNING: [Synth 8-327] inferring latch for variable 'PC_inc_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'D_addr_sel_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'IR_ld_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'D_rd_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'D_wr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:62]
+WARNING: [Synth 8-327] inferring latch for variable 'W_wr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:66]
+WARNING: [Synth 8-327] inferring latch for variable 'Rp_rd_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'Rq_rd_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'D_addr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:69]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_W_data_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:69]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_s_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:66]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_W_addr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:68]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_Rp_addr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:68]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_Rq_addr_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:69]
+WARNING: [Synth 8-327] inferring latch for variable 'alu_s_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:67]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_Rp_zero_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:52]
+WARNING: [Synth 8-327] inferring latch for variable 'Rp_data_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:37]
+WARNING: [Synth 8-327] inferring latch for variable 'Rq_data_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:42]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[15]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[14]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[13]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[12]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[11]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[10]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[9]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[8]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[7]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[6]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[5]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[4]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[3]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[2]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[1]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'RF_reg[0]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/regfile.v:47]
+WARNING: [Synth 8-327] inferring latch for variable 'R_data_reg' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:58]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[255]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[254]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[253]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[252]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[251]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[250]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[249]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[248]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[247]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[246]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[245]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[244]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[243]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[242]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[241]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[240]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[239]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[238]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[237]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[236]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[235]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[234]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[233]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[232]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[231]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[230]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[229]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[228]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[227]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[226]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[225]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[224]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[223]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[222]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[221]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[220]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[219]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[218]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[217]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[216]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[215]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[214]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[213]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[212]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[211]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[210]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[209]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[208]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[207]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[206]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[205]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[204]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[203]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[202]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[201]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[200]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[199]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[198]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[197]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[196]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[195]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[194]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[193]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+WARNING: [Synth 8-327] inferring latch for variable 'D_reg[192]' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/memory_unit.v:56]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
++---Registers : 
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   8 Input   16 Bit        Muxes := 1     
+	   4 Input   16 Bit        Muxes := 1     
+	  12 Input    8 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	  12 Input    4 Bit        Muxes := 3     
+	   4 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 2     
+	  12 Input    2 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 7     
+	  15 Input    1 Bit        Muxes := 6     
+	  12 Input    1 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 272   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port disp_seg_o[7] in module RISC_MIPS_processor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port disp_seg_o[6] in module RISC_MIPS_processor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port disp_seg_o[5] in module RISC_MIPS_processor is either unconnected or has no load
+WARNING: [Synth 8-7129] Port disp_seg_o[4] in module RISC_MIPS_processor is either unconnected or has no load
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rp_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/Rq_rd_reg  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/Rq_rd_reg  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/Rp_rd_reg  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/Rp_rd_reg  is always disabled
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'UUT1/nstate_reg[1]/Q' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'UUT1/nstate_reg[0]/Q' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/oscao/Final_Project/Final_Project.srcs/sources_1/new/controller.v:44]
+WARNING: [Synth 8-3332] Sequential element (UUT9/loc_reg[7]) is unused and will be removed from module RISC_MIPS_processor.
+WARNING: [Synth 8-3332] Sequential element (UUT9/loc_reg[3]) is unused and will be removed from module RISC_MIPS_processor.
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_W_data_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/D_addr_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \UUT1/RF_Rq_addr_reg[3]  is always disabled
+INFO: [Common 17-14] Message 'Synth 8-264' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     4|
+|2     |LUT1   |     2|
+|3     |LUT2   |    92|
+|4     |LUT3   |    62|
+|5     |LUT4   |    40|
+|6     |LUT5   |   120|
+|7     |LUT6   |  1731|
+|8     |LD     |  4471|
+|9     |OBUF   |   168|
+|10    |OBUFT  |     4|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.453 ; gain = 65.426
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 723 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 1702.453 ; gain = 13.891
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1702.453 ; gain = 65.426
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1702.453 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4475 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'RISC_MIPS_processor' is not ideal for floorplanning, since the cellview 'memory_unit' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1711.887 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4471 instances were transformed.
+  LD => LDCE: 4471 instances
+
+Synth Design complete, checksum: 5e5161b8
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 332 Warnings, 77 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1711.887 ; gain = 74.859
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/oscao/Final_Project/Final_Project.runs/synth_1/RISC_MIPS_processor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file RISC_MIPS_processor_utilization_synth.rpt -pb RISC_MIPS_processor_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 10 13:27:22 2022...
