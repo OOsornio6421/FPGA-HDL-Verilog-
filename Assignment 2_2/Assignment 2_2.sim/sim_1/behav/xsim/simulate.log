@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+At TIME(in ns) =                    0, req = 000, gnt = 000
+At TIME(in ns) =                10000, req = 000, gnt = 001
+At TIME(in ns) =                20000, req = 001, gnt = 001
+At TIME(in ns) =                30000, req = 010, gnt = 010
+At TIME(in ns) =                40000, req = 011, gnt = 010
+At TIME(in ns) =                50000, req = 100, gnt = 100
+At TIME(in ns) =                60000, req = 101, gnt = 001
+At TIME(in ns) =                70000, req = 110, gnt = 100
+At TIME(in ns) =                80000, req = 111, gnt = 001
+$finish called at time : 100 ns : File "C:/Users/oscao/Assignment 2_2/Assignment 2_2.srcs/sim_1/new/tb_arbiter.v" Line 63
